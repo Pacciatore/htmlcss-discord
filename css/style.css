@@ -41,7 +41,12 @@ header {
     justify-content: space-between;
 }
 
-/* Contenuto principale dell'header */
+/* Classe contenitore, centra tutti i contenuti del contenitore */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 .intro {
     background-color: #698ef0;
     height: 200px;
