@@ -61,6 +61,17 @@ header {
     max-width: 1200px;
 }
 
+/* Navigazione centrale superiore */
+nav.flex.row {
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+nav.flex.row,
+button {
+    padding: 5px;
+}
+
 /* Contenitore del contenitore del testo introduttivo */
 .intro {
     height: 602px;
