@@ -112,20 +112,21 @@ button:nth-child(2) {
     text-align: left;
 }
 
+/* Titolo dei vari info-content */
+.info-content h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
 }
 
 /* Didascalia immagine */
 .caption {
-    background-color: yellow;
-    height: 100px;
-    width: 75px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Immagine descrittiva della sezione */
 .info-content img {
-    background-color: orange;
-    height: 100px;
-    width: 75px;
+    max-width: 100%;
 }
 
 /* Ultima sezione del contenuto principale */
