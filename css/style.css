@@ -34,6 +34,11 @@ button,
     border-radius: 50px;
 }
 
+/* Grigio da utilizzare per questa pagina */
+.grey {
+    background-color: #f6f6f6;
+}
+
 /* CONTENT */
 
 
