@@ -48,8 +48,10 @@ header {
 }
 
 .intro {
-    background-color: #698ef0;
-    height: 200px;
+    height: 602px;
+    align-items: center;
+}
+
 }
 
 /* Ogni sezione composta da immagine e testo affiancati */
