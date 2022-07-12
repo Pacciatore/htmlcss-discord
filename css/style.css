@@ -28,6 +28,7 @@
 /* Allinea qualsiasi contenuto al centro */
 body {
     text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /* Imposto lo sfondo per il jumbo-tron */
