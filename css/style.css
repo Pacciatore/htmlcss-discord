@@ -30,6 +30,12 @@ body {
     text-align: center;
 }
 
+/* Imposto lo sfondo per il jumbo-tron */
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
 /* Barra di navigazione superiore */
 nav {
     background-color: #3161e0;
