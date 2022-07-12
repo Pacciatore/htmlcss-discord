@@ -107,9 +107,8 @@ button:nth-child(2) {
 
 /* Ogni sezione composta da immagine e testo affiancati */
 .info-content {
-    background-color: white;
     justify-content: space-around;
-    padding-top: 50px;
+    padding: 100px 0;
 }
 
 .info-content>* {
@@ -123,10 +122,13 @@ button:nth-child(2) {
     padding-bottom: 20px;
 }
 
+.info-content:last-child>* {
+    text-align: center;
+}
+
 /* Didascalia immagine */
 .caption {
     justify-content: center;
-    align-items: center;
 }
 
 /* Immagine descrittiva della sezione */
@@ -137,11 +139,6 @@ button:nth-child(2) {
 /* Ultima sezione del contenuto principale */
 .info-content.flex.column {
     align-items: center;
-}
-
-/* Sfondo grigio alternato */
-.info-content:nth-child(even) {
-    background-color: #f6f6f6;
 }
 
 /* Sezione collegamenti fondo pagina */
