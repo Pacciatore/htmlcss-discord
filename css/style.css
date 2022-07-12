@@ -154,7 +154,8 @@ h3 {
     font-weight: bolder;
 }
 
-.caption>button {
+.caption>button,
+.footer-last>button {
     background-color: #8ea1e1;
     color: white;
 }
@@ -163,6 +164,35 @@ h3 {
 footer {
     background-color: #23272a;
     color: white;
-    justify-content: space-around;
-    height: 100px;
+    text-align: left;
+}
+
+/* Titoli colonne footer */
+footer h4 {
+    color: #8ea1e1;
+    padding-bottom: 10px;
+}
+
+/* Titolo prima colonna */
+footer div:first-child>h4 {
+    font-size: 24px;
+}
+
+/* Contenitore colonne */
+.footer-nav {
+    padding-top: 40px;
+
+    justify-content: space-between;
+
+}
+
+hr {
+    border-color: #4a5882;
+    margin: 30px auto;
+}
+
+/* Fondo footer */
+.footer-last {
+    justify-content: space-between;
+    padding-bottom: 100px;
 }
