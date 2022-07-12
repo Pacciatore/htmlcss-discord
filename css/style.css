@@ -52,6 +52,10 @@ header {
     align-items: center;
 }
 
+.jumbo-tron-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 75px 0px;
 }
 
 /* Ogni sezione composta da immagine e testo affiancati */
