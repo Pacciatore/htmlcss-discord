@@ -46,6 +46,7 @@ body {
 header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    color: white;
 }
 
 /* Barra di navigazione superiore */
@@ -59,15 +60,22 @@ header {
     max-width: 1200px;
 }
 
+/* Contenitore del contenitore del testo introduttivo */
 .intro {
     height: 602px;
     align-items: center;
 }
 
+/* Contenitore testo introduttivo */
 .jumbo-tron-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 75px 0px;
+}
+
+.jumbo-tron-container h1,
+.jumbo-tron-container p {
+    padding: 30px;
 }
 
 /* Skin secondo bottone */
