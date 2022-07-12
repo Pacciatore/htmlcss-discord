@@ -37,9 +37,8 @@ header {
 }
 
 /* Barra di navigazione superiore */
-nav {
-    background-color: #3161e0;
-    height: 50px;
+.top-header {
+    justify-content: space-between;
 }
 
 /* Contenuto principale dell'header */
