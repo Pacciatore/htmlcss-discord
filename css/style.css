@@ -23,7 +23,8 @@
 }
 
 /* Bottoni */
-button {
+button,
+.special-button {
     background-color: white;
     margin: 0 15px;
     padding: 10px 20px;
@@ -64,12 +65,15 @@ header {
 /* Navigazione centrale superiore */
 nav.flex.row {
     justify-content: space-evenly;
+    align-items: center;
     flex-grow: 1;
+    padding: 5px;
 }
 
-nav.flex.row,
-button {
-    padding: 5px;
+/* Collegamento 'Accedi' */
+.special-button>a {
+    text-decoration: none;
+    color: #23272a;
 }
 
 /* Contenitore del contenitore del testo introduttivo */
