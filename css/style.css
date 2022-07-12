@@ -39,6 +39,14 @@ button,
     background-color: #f6f6f6;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: 10px;
+}
+
 /* CONTENT */
 
 
