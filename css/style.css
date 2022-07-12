@@ -47,6 +47,12 @@ li {
     padding-top: 10px;
 }
 
+/* Classe per girare ed avvicinare l'onda inferiore tra 2 e 3 sezione */
+.rotate {
+    transform: rotate(180deg);
+    margin-top: -4px;
+}
+
 /* CONTENT */
 
 
