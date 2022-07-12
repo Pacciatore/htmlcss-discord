@@ -52,6 +52,7 @@ header {
 /* Barra di navigazione superiore */
 .top-header {
     justify-content: space-between;
+    padding: 10px;
 }
 
 /* Classe contenitore, centra tutti i contenuti del contenitore */
