@@ -22,6 +22,17 @@
     flex-direction: row;
 }
 
+/* Bottoni */
+button {
+    background-color: white;
+    margin: 0 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+
+    border: 0 solid;
+    border-radius: 50px;
+}
+
 /* CONTENT */
 
 
@@ -57,6 +68,12 @@ header {
     max-width: 800px;
     margin: 0 auto;
     padding: 75px 0px;
+}
+
+/* Skin secondo bottone */
+button:nth-child(2) {
+    background-color: #23272a;
+    color: white;
 }
 
 /* Ogni sezione composta da immagine e testo affiancati */
