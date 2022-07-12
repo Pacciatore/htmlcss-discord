@@ -104,6 +104,9 @@ button:nth-child(2) {
 .info-content {
     background-color: white;
     justify-content: space-around;
+    padding-top: 50px;
+}
+
 }
 
 /* Didascalia immagine */
