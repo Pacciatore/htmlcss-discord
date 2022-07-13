@@ -22,6 +22,14 @@
     flex-direction: row;
 }
 
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
 /* Bottoni */
 button,
 .special-button {
@@ -32,6 +40,9 @@ button,
 
     border: 0 solid;
     border-radius: 50px;
+
+    transition: opacity 1s;
+    transition: font-size 0.5s;
 }
 
 /* Grigio da utilizzare per questa pagina */
@@ -45,6 +56,13 @@ ul {
 
 li {
     padding-top: 10px;
+}
+
+li a:hover,
+button:hover,
+.special-button:hover {
+    opacity: 0.75;
+    font-size: 110%;
 }
 
 /* Classe per girare ed avvicinare l'onda inferiore tra 2 e 3 sezione */
@@ -82,16 +100,25 @@ header {
 }
 
 /* Navigazione centrale superiore */
-nav.flex.row {
+nav>ul {
     justify-content: space-evenly;
     align-items: center;
     flex-grow: 1;
     padding: 5px;
 }
 
+nav>ul>li {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: font-size 0.5s;
+}
+
 /* Collegamento 'Accedi' */
 .special-button>a {
-    text-decoration: none;
     color: #23272a;
 }
 
